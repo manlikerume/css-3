@@ -7,7 +7,15 @@
     font-family: quicksand;
 }
 
+body{
 
+    height: 100vh;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
 
  .card{
     width: 250px;
@@ -15,6 +23,8 @@
     border: 1px solid;
     padding: 30px;
     background-color: orange;
+    
+    align-items: center;
  }
 
 img {
@@ -28,6 +38,12 @@ img {
 .stars{
 
     color: gold;
+    text-align: center;
+}
+
+p, h3{
+
+    text-align: center;
 }
 
 .button{
@@ -37,3 +53,4 @@ img {
     background-color: green;
     border: 1px solid green;
 }
+
